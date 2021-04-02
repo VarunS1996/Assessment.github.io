@@ -1,0 +1,139 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Avenir Next ;
+}
+
+/* Header */
+
+#logo
+{
+    margin-left:40px;
+} 
+
+#options li a
+{
+    font-family: Avenir Next;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color:black;
+    margin-top:auto;
+}
+
+#options li
+{
+    margin-right:30px;
+}
+
+.btn
+{
+    width:100px;
+    border-radius: 5px;
+}
+
+/* section */
+
+.container
+{
+    margin:50px auto;
+    height:500px;
+    width:100%;
+}
+
+#section
+{
+    background-image: url('Back drop 1Backdrop.png');
+}
+
+#form
+{
+    width:40%;
+    margin-left:25vw;
+    display: flex;
+    line-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#forms
+{
+    width:50%;
+    margin-left:25vw;
+    display: flex;
+    line-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form label
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+#form h1
+{
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+}
+
+#forms h1
+{
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+}
+
+#form input:hover
+{
+    border: 1px solid black;
+}
+
+#message
+{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px; 
+    color: #000000;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.footer ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer ul li
+{
+    list-style: none;
+    margin-left:40px;
+}
+
+.footer ul li a
+{
+    color:white;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 995px) {
+    #forms
+    {   
+        width:70%;
+        margin-left:15vw;
+    }
+  }
